@@ -1,12 +1,15 @@
 /*  your css code here. If applicable */
 #container {
 			margin: 20px;
+	        display: inline;
+	
 		}
  #container::before {
-		content: "Before Element";
+		content: "Before Element ";
+	    display: inline;
 		color: #f00;
 		font-size: 20px;
-	    display: inline;
+	    
 	}
 #container::after {
 	 content: "After Element";
